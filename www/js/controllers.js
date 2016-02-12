@@ -2,7 +2,7 @@ angular.module('starter.controllers', [])
 
 .controller('TrackNewCtrl', function($scope) {})
 
-.controller('DashboardCtrl', function($scope, Chats) {
+.controller('DashboardCtrl', function($scope, Orders) {
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
   // To listen for when this page is active (for example, to refresh data),
@@ -11,18 +11,18 @@ angular.module('starter.controllers', [])
   //$scope.$on('$ionicView.enter', function(e) {
   //});
 
-  $scope.chats = Chats.all();
-  $scope.remove = function(chat) {
-    Chats.remove(chat);
+  $scope.orders = Orders.all();
+  $scope.remove = function(order) {
+    Orders.remove(order);
   };
 })
 
-.controller('OrderDetailCtrl', function($scope, $stateParams, Chats) {
-  $scope.chat = Chats.get($stateParams.chatId);
+.controller('OrderDetailCtrl', function($scope, $stateParams, Orders) {
+  $scope.order = Orders.get($stateParams.orderId);
 })
 
 .controller('AccountCtrl', function($scope) {
   $scope.settings = {
-    enableFriends: true
+    notify: true
   };
 });
