@@ -4,10 +4,10 @@
       <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="order in orders" type="item-text-wrap" href="#/tab/order/{{order.id}}">
         <img ng-src="{{order.face}}">
         <h2>{{order.name}}</h2>
-        <p>{{order.lastText}}</p>
+        <p>{{order.deliveryDate}}</p>
         <i class="icon ion-chevron-right icon-accessory"></i>
 
-        <ion-option-button class="button-assertive" ng-click="remove(chat)">
+        <ion-option-button class="button-assertive" ng-click="remove(order)">
           Delete
         </ion-option-button>
       </ion-item>

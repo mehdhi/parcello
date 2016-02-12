@@ -1,9 +1,24 @@
-
 <ion-view view-title="{{order.name}}">
-  <ion-content class="padding">
-    <img ng-src="{{order.face}}" style="width: 64px; height: 64px">
-    <p>
-      {{order.lastText}}
-    </p>
-  </ion-content>
+    <ion-content class="padding">
+        <img ng-src="{{order.face}}" style="width: 64px; height: 64px">
+        <p>
+            Order ID : {{order.id}}
+        </p>
+        <p>
+            Status : {{order.status}}
+        </p>
+        <p>
+            Description : {{order.description}}
+        </p>
+        <p>
+            Delivery Date : {{order.deliveryDate}}
+        </p>
+        <p>
+            Delivery Address : {{order.deliveryAddress}}
+        </p>
+        <p>
+            Sender Information : {{order.senderInfo}}
+        </p>
+
+    </ion-content>
 </ion-view>
