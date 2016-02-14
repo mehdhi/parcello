@@ -12,7 +12,8 @@ angular.module('starter.services', [])
     status: 'dispatched',
     deliveryDate: '20-02-2016',
     deliveryAddress: 'No. 19 Lily Avenue, Colombo 06',
-    senderInfo: 'Kapruka Pvt Ltd, SL, 0115326565'
+    senderInfo: 'Kapruka Pvt Ltd, SL, 0115326565',
+    currentLocation: 'Sri Lanka'
     
   }, {
    id: 155415,
@@ -22,7 +23,8 @@ angular.module('starter.services', [])
     status: 'dispatched',
     deliveryDate: '26-02-2016',
     deliveryAddress: 'No. 19 Lily Avenue, Colombo 06',
-    senderInfo: 'Kapruka Pvt Ltd, SL, 0115326565'
+    senderInfo: 'Kapruka Pvt Ltd, SL, 0115326565',
+    currentLocation: 'Sri Lanka'
   }, {
    id: 157895,
     name: 'Screen Guard - Ali Express',
@@ -31,7 +33,8 @@ angular.module('starter.services', [])
     status: 'dispatched',
     deliveryDate: '22-02-2016',
     deliveryAddress: 'No. 19 Lily Avenue, Colombo 06',
-    senderInfo: 'Kapruka Pvt Ltd, SL, 0115326565'
+    senderInfo: 'Kapruka Pvt Ltd, SL, 0115326565',
+    currentLocation: 'Sri Lanka'
   }, {
     id: 154648,
     name: 'Apple ipod nano',
@@ -40,7 +43,8 @@ angular.module('starter.services', [])
     status: 'delivered',
     deliveryDate: '02-02-2016',
     deliveryAddress: 'No. 19 Lily Avenue, Colombo 06',
-    senderInfo: 'Kapruka Pvt Ltd, SL, 0115326565'
+    senderInfo: 'Kapruka Pvt Ltd, SL, 0115326565',
+    currentLocation: 'Sri Lanka'
   }, {
     id: 154554,
     name: 'Galaxy Tab Case - Kapruka',
@@ -49,7 +53,8 @@ angular.module('starter.services', [])
     status: 'pending',
     deliveryDate: '03-03-2016',
     deliveryAddress: 'No. 19 Lily Avenue, Colombo 06',
-    senderInfo: 'Kapruka Pvt Ltd, SL, 0115326565'
+    senderInfo: 'Kapruka Pvt Ltd, SL, 0115326565',
+    currentLocation: 'Sri Lanka'
   }];
 
   return {
