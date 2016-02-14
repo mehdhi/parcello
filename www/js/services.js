@@ -66,6 +66,9 @@ angular.module('starter.services', [])
         }
       }
       return null;
+    },
+    add: function( order ){
+        orders.push( order );
     }
   };
 });
